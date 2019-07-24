@@ -15,4 +15,4 @@ def index():
             'body':'Amazing!'
         }
     ]
-    return render_template("index.html",user = user,posts=posts)
+    return render_template("index.html",title='O',user = user,posts=posts)
